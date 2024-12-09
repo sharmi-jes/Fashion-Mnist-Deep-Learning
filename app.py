@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Load pre-trained Fashion MNIST model (Assumes you have a saved model)
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("fashion_mnist_model.h5")
+    return tf.keras.models.load_model("D:\DEEP_LEARNING_PROJECTS\Fashion_Mnist\my_model.keras")
 
 # Class labels for Fashion MNIST
 CLASS_NAMES = [
